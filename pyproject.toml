@@ -1,0 +1,24 @@
+[project]
+name = "demo"
+version = "0.1.0"
+license = "ISC"
+description = "Simple demo with Pydantic AI and Pydantic Graph."
+authors = [{ name = "Patryk Stępień", email = "fighting.dreamer.0@gmail.com" }]
+dependencies = ["pydantic-ai>=1.5.0", "pydantic-graph>=1.5.0"]
+readme = "README.md"
+requires-python = ">= 3.12"
+
+[dependency-groups]
+dev = [
+  "ipython>=9.6.0",
+  "grandalf>=0.8",
+  "clai>=1.0.17",
+  "pyright>=1.1.406",
+  "ty>=0.0.1a22",
+  "pytest>=8.0.0",
+  "pytest-asyncio>=0.24.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.9.5,<0.10.0"]
+build-backend = "uv_build"
