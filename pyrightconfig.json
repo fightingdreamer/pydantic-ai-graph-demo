@@ -1,0 +1,17 @@
+{
+  "include": [
+    "src"
+  ],
+  "pythonVersion": "3.12",
+  "reportAny": false,
+  "reportExplicitAny": false,
+  "reportArgumentType": true,
+  "reportMissingParameterType": true,
+  "reportMissingTypeArgument": true,
+  "reportMissingTypeStubs": false,
+  "reportUnusedCallResult": false,
+  "reportUnknownArgumentType": false,
+  "reportUnknownMemberType": false,
+  "reportUnknownParameterType": false,
+  "reportUnknownVariableType": false
+}
